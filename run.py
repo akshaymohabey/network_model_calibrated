@@ -27,7 +27,7 @@ results_4s = batch_run(
     NetworkModel,
     parameters = params,
     iterations = 1,
-    max_steps= 100,
+    max_steps= 50,
     number_processes=1,
     data_collection_period=1,
     display_progress=True
