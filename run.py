@@ -27,7 +27,7 @@ results_4s = batch_run(
     NetworkModel,
     parameters = params,
     iterations = 1,
-    max_steps= 50,
+    max_steps= 40,
     number_processes=1,
     data_collection_period=1,
     display_progress=True
@@ -59,7 +59,8 @@ plt.grid(False)
 
 # Show the plot
 plt.tight_layout()
-plt.show()
+# plt.show()
+plt.savefig("graphs/2D_Plot_No_1.png")
 
 
 """ 3D Plot """
@@ -88,8 +89,9 @@ cbar = plt.colorbar(sc, ax=ax, pad=0.1)
 cbar.set_label('Number of Steps')
 
 # Show plot
-plt.show()
-
+# plt.show()
+# Save the Plot
+plt.savefig("graphs/3D_Plot_No_1.png")
 
 """ Creating a 3D line plot """
 # Line Plot
@@ -118,6 +120,8 @@ ax.set_title('3D Line Plot: Most Common State/Total State vs Step and Number of 
 
 # Add legend
 ax.legend(title='Number of States')
-
 # Show plot
-plt.show()
+# plt.show()
+
+# Save plot no.3
+plt.savefig("graphs/3D_plot_no_2.png")
