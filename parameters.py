@@ -15,7 +15,7 @@ Parameters File
 # prob = 0.01
 
 # Number of States
-num_states = [2,3,4] #,5,6,7,8,9,10]
+num_states = [2,3,4,5,6,7,8,9,10]
 
 # mean_connections = 10
 # time_steps = 100

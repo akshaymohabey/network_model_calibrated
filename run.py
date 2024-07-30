@@ -60,7 +60,7 @@ plt.grid(False)
 # Show the plot
 plt.tight_layout()
 # plt.show()
-plt.savefig("graphs/2D_Plot_No_1.png")
+plt.savefig("graphs/VV_2D_Plot_No_1.png")
 
 
 """ 3D Plot """
@@ -91,7 +91,7 @@ cbar.set_label('Number of Steps')
 # Show plot
 # plt.show()
 # Save the Plot
-plt.savefig("graphs/3D_Plot_No_1.png")
+plt.savefig("graphs/VV_3D_Plot_No_1.png")
 
 """ Creating a 3D line plot """
 # Line Plot
@@ -124,4 +124,4 @@ ax.legend(title='Number of States')
 # plt.show()
 
 # Save plot no.3
-plt.savefig("graphs/3D_plot_no_2.png")
+plt.savefig("graphs/VV_3D_plot_no_2.png")
